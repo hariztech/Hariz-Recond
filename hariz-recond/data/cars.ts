@@ -16,7 +16,6 @@ export type Car = {
 }
 
 export const cars: Car[] = [
-  // UNIT WN101
   {
     id: 'stepwgn-2023-spada-premium-wn101',
     stockNo: 'WN101',
@@ -27,18 +26,12 @@ export const cars: Car[] = [
     grade: '4.5',
     transmission: 'IAT',
     fuel: 'Petrol',
-
-    // TUKAR NAMA FILE INI kepada gambar sebenar dalam folder WN101
     image:
-      '/Cars/stepwgn-2023-spada-premium-wn101/NAMA-FILE-GAMBAR.jpeg',
-
+      '/Cars/stepwgn-2023-spada-premium-wn101/4bc4edff-b541-41e4-980e-80e4ab69a50d.jpg',
     imageFolder: 'stepwgn-2023-spada-premium-wn101',
-
     badge: 'Grade 4.5',
-
     description:
       '2023 Honda StepWGN Spada Premium Line 7-seater with 32,340 km. Auction grade 4.5 and interior grade B. Equipped with Honda Sensing, Blind Spot Monitor, Adaptive Driving Beam, Honda Connect 11.4-inch navigation, multi-view camera, power tailgate, half leather seats and seat heater.',
-
     specs: [
       { label: 'Stock No.', value: 'WN101' },
       { label: 'Engine', value: '1.5L Petrol' },
@@ -52,7 +45,6 @@ export const cars: Car[] = [
     ],
   },
 
-  // UNIT BM2378
   {
     id: 'stepwgn-2024-spada-premium-bm2378',
     stockNo: 'BM2378',
@@ -63,18 +55,12 @@ export const cars: Car[] = [
     grade: '5',
     transmission: 'AT',
     fuel: 'Petrol',
-
-    // TUKAR NAMA FILE INI kepada gambar sebenar dalam folder BM2378
     image:
-      '/Cars/stepwgn-2024-Spada-Premium-BM2378/NAMA-FILE-GAMBAR.jpeg',
-
+      '/Cars/stepwgn-2024-Spada-Premium-BM2378/ef06244e-b8ae-4482-a6e2-fdd82d89e3fe.jpg',
     imageFolder: 'stepwgn-2024-Spada-Premium-BM2378',
-
     badge: 'Grade 5 · Interior A',
-
     description:
       '2024 Honda StepWGN Spada Premium Line with only 2,223 km. Auction grade 5 and interior grade A. Finished in Purple PB87P and equipped with Honda Sensing, Honda Connect 11.4-inch navigation, ETC 2.0, multi-view camera, smart key and power tailgate.',
-
     specs: [
       { label: 'Stock No.', value: 'BM2378' },
       { label: 'Engine', value: '1.5L Petrol' },
