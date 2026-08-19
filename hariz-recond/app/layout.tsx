@@ -1,0 +1,3 @@
+import './globals.css'; import Header from '../components/Header'; import WhatsApp from '../components/WhatsApp'
+export const metadata={title:'Hariz Recond | Japanese Recon Cars',description:'Premium Japanese recon cars with transparent auction-grade information.'}
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/>{children}<WhatsApp/><footer className="border-t border-white/10 py-10"><div className="container-x flex flex-col justify-between gap-5 text-sm text-white/50 sm:flex-row"><span>© 2026 Hariz Recond. All rights reserved.</span><span>Japanese Recon Cars · Malaysia</span></div></footer></body></html>}
